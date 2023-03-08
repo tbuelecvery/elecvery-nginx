@@ -3,7 +3,7 @@ FROM nginx:1.21.4
 
 RUN rm -rf /etc/nginx/conf.d/default.conf
 
-COPY ./nginx_csms/conf.d/nginx.conf  /etc/nginx/nginx.conf
+COPY ./conf.d/nginx.conf  /etc/nginx/nginx.conf
 
 VOLUME ["/data", "/etc/nginx", "/var/log/nginx"]
 
