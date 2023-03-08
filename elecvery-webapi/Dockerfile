@@ -11,5 +11,6 @@ WORKDIR /etc/nginx
 
 EXPOSE 22088
 EXPOSE 21024
+EXPOSE 59797
 
 CMD ["nginx"]
