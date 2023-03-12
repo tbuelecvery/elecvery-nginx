@@ -9,8 +9,8 @@ VOLUME ["/data", "/etc/nginx", "/var/log/nginx"]
 
 WORKDIR /etc/nginx
 
-EXPOSE 22088
 EXPOSE 21024
 EXPOSE 59797
+EXPOSE 25005
 
 CMD ["nginx"]
